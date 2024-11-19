@@ -154,7 +154,7 @@ def Installed_App_Monitor():
         else:
             f = open("Temp\\Installed_app_temp.log", "r")
             content = f.read()
-            send_email("Jitin.k.sengar@gmail.com", "Installed Application Report", f"{content}")
+            send_email("raunitarya599@gmail.com", "Installed Application Report", f"{content}")
             print("Email sent")
             Clear_file("Log\\Installed_app.log")
             Write_file("Log\\Installed_app.log", installed_apps)
